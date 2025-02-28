@@ -31,6 +31,8 @@ return(<div className='flex screen'>
               <form onSubmit={handleSubmit}>
                 <div className='mb-6'>
                   <label htmlFor='username' className='block text-orange-400 uppercase text-sm font-medium md-2'>Username</label>
+                  <input type="text" id="username" placeholder='Enter your username'
+                  value={formData.username} onChange={handleChange} className='w-full p-3 border border-gray-300 rounded text-gray-500 focus:outline-none focus:ring-2
                 </div>
               </form>
           </div>
